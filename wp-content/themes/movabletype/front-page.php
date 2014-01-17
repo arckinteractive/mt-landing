@@ -101,13 +101,13 @@
       </div>
     </div>
 
-<!--script type="text/javascript">(function() { var phplive_e_1349885922 = document.createElement("script") ; phplive_e_1349885922.type = "text/javascript" ; phplive_e_1349885922.async = true ; phplive_e_1349885922.src = "//www.arckinteractive.com/phplive/js/phplive_v2.js.php?q=0|1349885922|0|Chat" ; document.getElementById("phplive_btn_1349885922").appendChild( phplive_e_1349885922 ) ; })() ;</script>
+<script type="text/javascript">(function() { var phplive_e_1349885922 = document.createElement("script") ; phplive_e_1349885922.type = "text/javascript" ; phplive_e_1349885922.async = true ; phplive_e_1349885922.src = "//www.arckinteractive.com/phplive/js/phplive_v2.js.php?q=0|1349885922|0|Chat" ; document.getElementById("phplive_btn_1349885922").appendChild( phplive_e_1349885922 ) ; })() ;</script>
 
 
 <div class="gsfn-widget-tab gsfn-left" style="background-color: rgb(222, 116, 59); color: rgb(255, 255, 255); border-color: rgb(255, 255, 255); font-family: Arial, Helvetica, sans-serif; top: 524.5px;" onclick="phplive_launch_chat_0(0)">
 <a href="/movabletype/contact/" style="color: white; a: white;">Ask a Question</a>
 </div>
-</span-->
+</span>
     <div class="large-4 columns">
       <div class="panel panel-cloud">
         <div class="text-center">
