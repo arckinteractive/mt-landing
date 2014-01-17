@@ -1,0 +1,43 @@
+/* Fix "i" notice icons */
+.woocommerce-info:before { padding-top: 0 !important; }
+
+/* Fix "Quantity" box margin */
+.input-text.qty.text { margin-bottom: 0; }
+
+/* Items On Sale */
+.product.sale { position: relative; }
+.onsale {
+  position: absolute;
+  top: -7px;
+  left: 3px;
+  background: $secondary-color;
+  color: #fff;
+  padding: 2px 5px;
+  @include border-radius(100px);
+  height: 43px;
+  padding-top: 10px;
+  width: 43px;
+  text-align: center;
+  font-size: 13px;
+}
+
+/* Product Page */
+.single-product .product {
+  .onsale { display: none; }
+}
+
+/* Quantity Elements */
+.minus, .plus {
+  position: absolute;
+  right: 0;
+  z-index: 5;
+  height: 22px;
+  width: 22px;
+  font-size: 12px;
+}
+.plus { top: 21px; }
+.quantity.buttons_added { position: relative; }
+.input-text.qty { height: 44px; }
+
+/* Add to cart button */
+.single_add_to_cart_button.button.alt { margin: 10px 0 30px; }

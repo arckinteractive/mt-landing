@@ -1,0 +1,112 @@
+// Hero Sections
+
+  .hero {
+    background: #333536 url('../images/elements/hero-bg.jpg');
+    background-size: cover;
+    padding: 4em 0;
+    h1,h2,h3,h4,h5,h6 {
+      line-height: 1.1em;
+      color: #fff;
+      strong {
+        color: $primary-color;
+        font-weight: 200;
+      }
+    }
+  }
+
+
+// General Sections
+  
+  // Primary (Blue)
+  .bg-primary {
+    background: $primary-color;
+    padding: 3em 0;
+    h1,h2,h3,h4,h5,h6,p,a,td { color: #fff; }
+  }
+
+  // White
+  .bg-white { padding: 3em 0; }
+
+  // Secondary (Gray)
+  .bg-secondary {
+    background: #ededed url('../images/elements/bg-secondary.png') top repeat-x;
+    padding: 3em 0;
+  }
+
+  // Tertiary (Black)
+  .bg-tertiary {
+    background: #363636;
+    padding: 2em 2em 1em;
+  }
+
+
+// Panels
+
+  // Panels within Primary sections
+  .bg-primary .panel {
+    background-color: #fff;
+    a { color: $secondary-color; }
+    p { color: #888 }
+  }
+
+  // Panels within Secondary sections
+  .bg-secondary .panel {
+    background-color: #fff;
+  }
+
+  // Panels within Tertiary sections
+  .bg-tertiary .panel {
+    background-color: #000;
+    h1,h2,h3,h4,h5,h6,p,a,td {
+      color: #fff;
+    }
+    table, tr, td {
+      border: none;
+    }
+    table tr {
+      background: #1c1c1c;
+    }
+    table tr.even, table tr.alt, table tr:nth-of-type(even) {
+      background: #000;
+    }
+  }
+
+  // Callout Panels
+  .panel.callout {
+    h1,h2,h3,h4,h5,h6,p { color: lighten($primary-color, 25%); }
+    strong { color: #fff; }
+    background-color: $secondary-color;
+  }
+
+  // Conversion panels (small dark areas at the bottom of other panels)
+  .panel-convert {
+    background: #363636;
+    margin: 0 -20px;
+    bottom: -20px;
+    position: relative;
+    padding: 20px 20px 10px;
+    h1,h2,h3,h4,h5,h6,p,a {
+      color: #fff;
+    }
+    p {
+      margin-bottom: 0;
+    }
+    h3 {
+      color: #6cdff7;
+      span {
+        font-size: .6em;
+        text-transform: none;  
+      }
+    }
+  }
+
+
+// Tables    
+  table { width: 100%; }
+  td {
+    padding: 8px 2px;
+    font-size: .8em;
+  }
+
+// Panel box shadows e.g. on Q/A sections
+.bg-primary .panel { @include box-shadow(8px 8px 0 darken($primary-color, 20%)); }

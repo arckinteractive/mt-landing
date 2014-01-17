@@ -1,0 +1,113 @@
+/*
+
+google-analytics-async CSS Styles
+
+*/
+
+ul.nav-tab-wrapper {
+border-bottom-color: rgb(204, 204, 204);
+border-bottom-style: solid;
+border-bottom-width: 1px;
+color: rgb(70, 70, 70);
+display: block;
+font-size: 23px;
+font-weight: normal;
+height: 35px;
+line-height: 29px;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+padding-bottom: 0px;
+padding-left: 0px;
+padding-right: 15px;
+padding-top: 9px;
+text-shadow: rgb(255, 255, 255) 0px 1px 0px;
+}
+ul.nav-tab-wrapper li {
+    display: inline-block;
+}
+ul.nav-tab-wrapper li.ui-state-active a{
+    border-bottom-width: 1px;
+    color: rgb(70, 70, 70);
+}
+ul.nav-tab-wrapper li a{
+    border-color: rgb(223, 223, 223);
+    border-style: solid;
+    border-width: 1px;
+    border-bottom-color: rgb(255, 255, 255);
+    border-bottom-style: solid;
+    border-bottom-width: 0px;
+    color: rgb(170, 170, 170);
+    display: inline-block;
+    font-size: 20px;
+    height: 24px;
+    line-height: 24px;
+    margin-bottom: -1px;
+    margin-left: 0px;
+    margin-right: 6px;
+    margin-top: 0px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+}
+
+.google-analytics-remove-row,
+.google-analytics-remove-row span {
+    font-size: 10px;
+    font-weight: bold;
+    color: #666666;
+    cursor: pointer;
+    line-height: 16px;
+
+}
+
+.google_analytics_basic_stats ul {
+    margin: 0;
+}
+.google_analytics_basic_stats ul li {
+    display: inline-block;
+    margin: 0px 15px 5px 0;
+    padding: 0 10px 5px 0;
+    border-bottom: 2px solid #E5E5E5;
+    max-width: 100px;
+}
+.google_analytics_basic_stats ul li:last-child {
+    margin: 5px 0 5px 0;
+}
+.google_analytics_basic_stats ul li label {
+    display: block;
+}
+.google_analytics_basic_stats ul li span {
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 5px 0 0 0;
+}
+.google_analytics_extended_stats {
+    overflow: hidden;
+}
+.google_analytics_top_posts_pages, .google_analytics_searches, .google_analytics_top_referrals {			 	 		 	 						
+    float: left;
+    margin: 10px 10px 0 0;
+}
+.google_analytics_extended_stats .last {
+    margin-right: 0;
+}
+.google_analytics_extended_stats table {
+    width: 100%;
+}
+.google_analytics_top_referrals, .google_analytics_searches {
+    min-width: 184px;
+}
+#google_analytics_dashboard table {
+    border-spacing: 0px;
+}
+#google_analytics_dashboard td {
+    border-bottom: 1px solid #E5E5E5;
+    padding: 0.35em 0;
+}
+
+
+/* 120460-1389992605-au */

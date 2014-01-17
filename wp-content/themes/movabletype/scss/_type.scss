@@ -1,0 +1,43 @@
+// Type
+
+  // Header modifications
+  h1,h2,h3,h4,h5,h6 {
+    text-transform: uppercase;
+    strong {
+      color: $primary-color;
+      font-weight: 200;
+    }
+  }
+
+  // Small print
+  small {
+    color: #aaa;
+    margin-bottom: 10px;
+    display: block;
+    line-height: 1.5em;
+  }
+
+  // Lighten text from default
+  .text-light { color: #888; }
+
+
+// Lists
+  
+  // Modify default list styles
+  ul.disc, ol { margin-left: 20px; }
+
+  // Add custom colored disc
+  ul.disc {
+    list-style: none;
+    li:before {
+      content: "•";
+      color: $primary-color;
+      margin-left: -20px;
+      margin-right: 15px;
+    }
+  }
+
+  // Resize paragraphs within list items
+  li p { font-size: 1em; }
+
+  dt { margin: -1px 5px 0 0; }

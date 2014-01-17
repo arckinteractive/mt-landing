@@ -1,0 +1,48 @@
+Plugin Name: Slide-In
+Author: Jeffri Hong (Incsub), Victor Ivanov (Incsub), Ve Bailovity (Incsub)
+
+Change Log:
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+
+1.1.3 - 2013-04-22
+----------------------------------------------------------------------
+- Slide-in placement filter context awareness.
+- Improved column titles.
+
+1.1.2 - 2013-04-12
+----------------------------------------------------------------------
+- Fix for timed messages reappearing on scroll.
+- Added home page and custom post types to conditions list.
+- Introducing custom taxonomies for related posts.
+
+1.1.1 - 2013-04-05
+----------------------------------------------------------------------
+- Fix for caching plugins compatibility.
+- Stricter sidebar allowed checks.
+- Added injection hook utility method.
+- Added MarketPress virtual pages showing options.
+
+1.1 - 2013-03-27
+----------------------------------------------------------------------
+- Allowing slide-in metabox to all public post types.
+- Updated social services and options.
+- Added sidebar slide-in content type.
+- Closed message reappearing behaviors.
+
+1.0.2 - 2013-03-22
+----------------------------------------------------------------------
+- Added optional shortcode processing.
+- Making the fixed width slides responsive.
+
+1.0.1 - 2013-03-19
+----------------------------------------------------------------------
+- Added configurable subscription message option.
+- Added generic fallback error handler.
+
+1.0 - 2013-03-18
+----------------------------------------------------------------------
+- Initial release.
+
+
+120460-1376333967-ai

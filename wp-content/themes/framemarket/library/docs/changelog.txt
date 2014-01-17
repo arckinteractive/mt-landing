@@ -1,0 +1,159 @@
+1.1
+---
+Fixed multisite global products bug
+
+1.1.1
+-----
+Folder name
+
+1.1.2
+-----
+Fix for multisite category
+
+1.2
+---
+- User request: Show global or main shop products switch on front page if using multisite and MarketPress
+- User request: Independent color settings for child themes with unique theme name prefixes
+- Please save any color settings before upload outside of theme like in a screenshot / note
+- Header renamed to set up your theme as has more than just header options now
+
+1.3
+---
+BuddyPress compatible and GridMarket BuddyPress styling
+
+1.3.1
+-----
+Style cleanup
+
+1.3.2
+-----
+Fix for error on some network installs.
+
+1.3.3
+-----
+3.2 update
+
+1.3.4
+-----
+Sidebar widget duplication fix
+
+1.3.5
+-----
+Added > fix
+
+1.4
+---
+- BuddyPress 1.5 update
+- New set up theme function
+- Updated header links and formats
+- Use enqueue for all styling and scripts
+- New theme function allows for child themes to override everything including function files
+- Updated comment forms to use functions and comment_form
+
+1.4.2
+-----
+- Potential fix for loading / saving issue of theme options on some servers.
+
+1.4.3
+-----
+- Comment fix for those not using WordPress
+
+1.4.4
+-----
+Removal of TEXT_DOMAIN to use a string and also merging of strings for buddypress and theme to give consistency and better language handling.
+
+1.4.5
+-----
+- Add new styling for widgets - User request
+- Increase link colour contrast on sliding panel - User request
+
+1.4.6
+-----
+- Make MarketPress widgets vanish when user sets own widgets - User request
+
+1.4.7
+-----
+- Bullet point changes
+
+1.4.8
+-----
+use enqueue_scripts not styles
+
+1.4.8.1
+-----
+Analytics fix
+
+1.4.8.2
+-----
+Listings flag fix
+
+1.4.9
+-----
+Swap classnames for pagination
+
+1.4.9.1
+-----
+- Main site will be available in the store picker
+
+1.4.9.2
+-----
+- Fixed: Paging
+- Customizer
+
+1.4.9.3
+-----
+More paging fixes
+
+1.4.9.4
+-----
+Fix Global Tag paging
+
+1.4.9.5
+-----
+- Blog pagination fix
+- BuddyPress 1.6 Compatibility
+- Remove footer link
+
+1.4.9.6
+-----
+- Update WordPress 3.4 Customizer support for theme styling
+- Fix custom style navigation hover color
+- Fix custom header upload and crop
+- Correctly display BuddyPress and regular sidebar
+- Fix product thumbnail setting on global product listing
+- Buy now button position placed on a new line for more consistent experience
+- Clean unnecessary files
+
+1.5
+-----
+- Add local and global product search feature, available under Theme Options
+- Optimize customizer code
+- Update BuddyPress base code
+- Fix Google Analytics option
+- Minor style fixes
+
+1.5.1
+-----
+- Fix contact template page
+- Fix page and product text formatting
+- Fix option that allow HTML code
+
+1.5.2
+-----
+- Fix Marketpress product order issue
+- Fix button style issue
+
+1.5.3
+-----
+- Fix Marketpress product alignment issue on IE
+- Fix Customizer base style select not loading issue
+
+1.5.4
+-----
+- BuddyPress update
+- Fix issue with esc_attr_e on theme options
+- Cleaned code
+
+
+
+120460-1388769460-au

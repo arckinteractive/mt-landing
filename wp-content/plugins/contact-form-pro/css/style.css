@@ -1,0 +1,365 @@
+#adminmenu #toplevel_page_bws_plugins div.wp-menu-image,
+.admin-color-classic #adminmenu #toplevel_page_bws_plugins div.wp-menu-image,
+#adminmenu #toplevel_page_bws_plugins:hover div.wp-menu-image,
+#adminmenu #toplevel_page_bws_plugins.wp-has-current-submenu div.wp-menu-image {
+    background: url("../images/icon_16_single.png") no-repeat scroll center center transparent;
+}
+#adminmenu #toplevel_page_bws_plugins.wp-not-current-submenu div.wp-menu-image {
+    opacity: 0.7;
+}
+#toplevel_page_bws_plugins .wp-submenu .wp-first-item,
+.cntctfrmpr_hidden {
+    display: none;
+}
+/*
+* styles for rate-support div on the settings page
+*/
+.bws-plugin-reviews {
+    background: none repeat scroll 0 0 #BEE1F1;
+    border: 1px solid #70A8C2;
+    border-radius: 3px;
+    max-width: 700px;
+}
+.bws-plugin-reviews-rate {
+    padding: 10px;
+    border-bottom: 1px dashed #70A8C2;
+}
+.bws-plugin-reviews-support {
+    padding: 10px;
+}
+/*
+* styles for settings page
+*/
+.bws-plugins_page_contact_form input[type="checkbox"], .bws-plugins_page_contact_form input[type="radio"] {
+	position: relative;
+	top: -2px
+}
+#cntctfrmpr_contact_form input.text, 
+#cntctfrmpr_contact_form textarea,
+#cntctfrmpr_contact_message, 
+#cntctfrmpr_contact_phone,
+#cntctfrmpr_contact_address, 
+#cntctfrmpr_contact_department, 
+#cntctfrmpr_contact_name, 
+#cntctfrmpr_contact_email,
+#cntctfrmpr_contact_subject {
+	width: 320px;
+	float: left;
+}
+#cntctfrmpr_contact_department {
+    height: auto;
+}
+#cntctfrmpr_contact_form div .cptch_block,
+#cntctfrmpr_contact_form div .cptchpr_block {
+    float: left;
+}
+#cntctfrmpr_contact_form div {
+	clear: both;
+}
+.cntctfrmpr_info {
+	color: rgb(136, 136, 136); 
+	font-size: 10px;
+	clear: both;
+}
+#cntctfrmpr_contact_attachment {
+	margin-bottom:0;
+}
+.cntctfrmpr_change_label_block input,
+.cntctfrmpr_action_after_send_block input {
+	margin: 1px 0;
+}
+.cntctfrmpr_change_label_block input[type="text"],
+.cntctfrmpr_change_label_block textarea,
+.cntctfrmpr_action_after_send_block input[type="text"] {
+	width: 400px;
+}
+.cntctfrmpr_action_after_send_block  input[type="text"] {
+	width:250px;
+}
+.widget-container #cntctfrmpr_contact_form input.text, 
+.widget-container #cntctfrmpr_contact_form textarea, 
+.widget-container #cntctfrmpr_contact_message, 
+.widget-container #cntctfrmpr_contact_name, 
+.widget-container #cntctfrmpr_contact_email, 
+.widget-container #cntctfrmpr_contact_subject,
+.textwidget #cntctfrmpr_contact_form input.text,
+.textwidget #cntctfrmpr_contact_form textarea, 
+.textwidget #cntctfrmpr_contact_message, 
+.textwidgetr #cntctfrmpr_contact_name, 
+.textwidget #cntctfrmpr_contact_email, 
+.textwidget #cntctfrmpr_contact_subject{
+    width: 200px !important;
+}
+.cntctfrmpr_label_language_tab{
+	float: left;
+	padding:2px 5px;
+	border-radius: 4px 4px 0px 0px;
+    border:1px solid #DFDFDF;
+	background: url("../images/gray-grad.png") repeat-x scroll left top #DFDFDF;
+	cursor: pointer;
+	margin-right: 3px;
+}
+.cntctfrmpr_language_tab {
+	border:1px solid #DFDFDF;
+}
+.cntctfrmpr_language_tab_block {
+    padding: 5px 10px 5px 5px;
+    border-bottom:1px solid #DFDFDF;
+}
+.cntctfrmpr_language_tab_block_mini {
+    background: url("../images/toggle-arrow.png") no-repeat scroll 1px -26px transparent;
+    border-bottom: 1px solid #DFDFDF;
+    border-right: 1px solid #DFDFDF;
+    height: 15px;
+    width: 20px;
+}
+.cntctfrmpr_language_tab_block_mini:hover {
+    opacity: 0.7;
+}
+.cntctfrmpr_active {
+	color:#21759B;
+}
+.cntctfrmpr_delete {
+	color: red;
+    display: block;
+    float: right;
+    margin-left: 7px;
+    position: relative;
+    right: -3px;
+}
+.cntctfrmpr_colorPicker_small {
+    background: none repeat scroll 0 0 transparent;
+    border: 1px solid #CCC;
+    box-shadow: 0 9px 0 rgba(255, 255, 255, 0.1) inset;
+    display: inline-block;
+    height: 20px;
+    position: relative;
+    top: -2px;
+    vertical-align: middle;
+    width: 20px;
+}
+#cntctfrmpr_left_table {
+	margin-right: 30px;
+	float: left;
+}
+#cntctfrmpr_right_table {
+	width: 500px;
+	float: left;
+}
+.cntctfrmpr_help_box {
+    background-image: url("../images/tooltip_icons.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+    float: left;
+    height: 29px;
+    position: relative;
+    margin: 0 0 0 10px;
+    width: 29px;
+    clear: none !important;
+}
+.cntctfrmpr_hidden_help_text {
+    background: #F4F4F4;
+    border: 1px solid #DCDCDC;
+    border-radius: 4px;
+    left: 40px;
+    padding: 5px 10px;
+    position: absolute;
+    width: 240px;
+    line-height: 1.5;
+    z-index: 5;
+}
+.cntctfrmpr_hidden_help_text:before {
+    content: url("../images/help.png");
+    left: -10px;
+    position: absolute;
+    top: 7px;
+}
+.cntctfrmpr_hidden_help_text p {
+    margin: 0;
+}
+.cntctfrmpr_hidden_help_text_attach {
+    top: -2px;
+}
+.cntctfrmpr_hidden_help_text_captcha {
+   top: 21px;
+}
+.cntctfrmpr_help_box_error {
+    background-position: 0 -30px;
+}
+#cntctfrmpr_shortcode {
+    width: 330px;
+    margin-top: 30px;
+}
+#cntctfrmpr_shortcode div {
+    height: 20px;
+    width: 190px;
+    background: #EAEAEA;
+    border: 1px solid #DCDCDC;
+    padding: 10px;
+}
+#cntctfrmpr_shortcode code {
+    white-space: nowrap;
+    background: #EAEAEA;
+}
+.colorPickerDiv {
+    margin-left: 71px;
+}
+.cntctfrmpr_department_table {
+    border: 1px solid #DFDFDF;
+    padding: 5px 10px;
+    margin: -20px 20px 0;
+}
+.cntctfrmpr_department_table > div {
+    clear: both;
+}
+.cntctfrmpr_department_name,
+.cntctfrmpr_department_email,
+.cntctfrmpr_department_delete {
+    width: 190px;
+}
+div.cntctfrmpr_department_name,
+div.cntctfrmpr_department_email,
+div.cntctfrmpr_department_delete {
+    display: block;
+    float: left;
+}
+div.cntctfrmpr_department_name {
+    width: 200px;
+}
+.cntctfrmpr_department_delete > input[type="checkbox"] {
+    margin: 4px;
+}
+.cntctfrmpr_department_div select {
+    bottom: -3px;
+    height: auto;
+    position: relative;
+}
+.cntctfrmpr_drag_departament {
+    cursor: pointer;
+}
+.cntctfrmpr_department_block.ui-sortable-helper {
+    opacity: 0.7;
+}
+input.cntctfrmpr_del_check {
+    display: none;            
+}
+input.cntctfrmpr_del_check + label, 
+input.cntctfrmpr_del_check + label {
+  font: 18px bold;
+  color: #444;
+  cursor: pointer;
+}
+input.cntctfrmpr_del_check + label::before,
+input.cntctfrmpr_del_check + label::before {
+    content: "";
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    margin: 2px 5px 0 0;
+    background: url("../images/del_icon.png") no-repeat scroll 0 0 transparent;
+}
+#cntctfrmpr_settings_form .minicolors input {
+    height: 22px;
+}
+/* cntctfrmpr_settings_table */
+
+.cntctfrmpr_settings_table th, .cntctfrmpr_settings_table td {
+    border-bottom: 1px solid #DFDFDF;
+    border-right: 1px solid #DFDFDF;
+    height: 18px;
+    padding: 6px 10px;
+    text-align: left;
+}
+.cntctfrmpr_disabled_row {
+    background: #E8E8E8;
+    color: #848484;
+}
+/*
+* styles for pro_version banner 
+*/
+.cntctfrmpr_message_for_ctfrmtdb {
+    min-width: 800px;
+    border: 1px solid #1b6394;
+    padding: 5px;
+    margin: 12px 0;
+    background: #2484c6;
+    position: relative;
+    overflow: hidden;
+}
+.cntctfrmpr_message_for_ctfrmtdb .cntctfrmpr_text {
+    color: #FFF;
+    font-size: 15px;
+    line-height: 26px;
+    margin-top: 9px;
+    float: left;
+}
+.cntctfrmpr_message_for_ctfrmtdb .cntctfrmpr_text span {
+    font-size: 12px;
+    opacity: 0.7;
+}
+.cntctfrmpr_message_for_ctfrmtdb .cntctfrmpr_button {
+    float: right;
+    border: 1px solid #14496d; 
+    font-size: 13px;
+    margin: 16px 12px;
+    padding: 5px 14px;
+    color: #FFF;
+    background: #17537e;
+    -moz-border-radius : 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    text-decoration: none;
+    height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.cntctfrmpr_message_for_ctfrmtdb .cntctfrmpr_button:hover,
+.cntctfrmpr_message_for_ctfrmtdb .cntctfrmpr_button:focus {    
+    background: #2b9eed;
+    color: #FFF;
+    border: 1px solid #1d6ca1;
+    -moz-box-shadow: 0px 1px 1px 0 #4bacf0 inset;
+    -webkit-box-shadow: 0px 1px 1px 0 #4bacf0 inset;
+    box-shadow: 0px 1px 1px 0 #4bacf0 inset;
+}
+.cntctfrmpr_message_for_ctfrmtdb .cntctfrmpr_icon {
+    float: left;
+    margin: 10px 19px 12px 23px;
+}
+.cntctfrmpr_message_for_ctfrmtdb .cntctfrmpr_for_ctfrmtdb_close_icon {
+    float: right;
+    margin: 4px;
+    cursor: pointer;
+}
+/* banner on the plugins page */
+.cntctfrmpr_message {
+    min-width: 800px;
+    border: 1px solid #d4d4d4;
+    margin: 12px 0;
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+}
+.cntctfrmpr_message .cntctfrmpr_text {
+    color: #000000;
+    float: left;
+    font-size: 13px;
+    line-height: 26px;
+    margin: 26px;
+    width: 85%;
+}
+.cntctfrmpr_message .cntctfrmpr_text span {
+    font-size: 12px;
+    opacity: 0.7;
+}
+.cntctfrmpr_message .cntctfrmpr_icon {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+.cntctfrmpr_message .cntctfrmpr_close_icon {
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 8px;
+}

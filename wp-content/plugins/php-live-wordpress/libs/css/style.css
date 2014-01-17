@@ -1,0 +1,10 @@
+.phplive_wp_menu_wrapper{ padding: 5px; background: url( ../pics/bg_menu.gif ) repeat-x; color: #66667B; text-shadow: #FFFFFF 1px 1px; }
+.phplive_wp_menu, .phplive_wp_menu_focus{ float: left; margin-right: 12px; }
+.phplive_wp_menu{ padding: 5px; border: 1px solid transparent; cursor: pointer; }
+.phplive_wp_menu_focus{ padding: 5px; background: #F7F7F7; border: 1px solid #D3D3D3; }
+
+.phplive_wp_info_box{ background: #FBF7B4; border: 1px solid #FFE221; padding: 5px; color: #806732; }
+.phplive_wp_info_error{ background: #F67975; border: 1px solid #BA3D40; padding: 5px; color: #FFFFFF; }
+.phplive_wp_info_good{ background: #43CB00; border: 1px solid #36A400; padding: 5px; color: #FFFFFF; }
+.phplive_wp_info_neutral{ background: #FAFAFA; border: 1px solid #D6D6D6; padding: 5px; color: #6D6D71; }
+.phplive_wp_info_warning{ background: #FFE8C4; border: 1px solid #E1CDAD; padding: 5px; color: #5A5245; }

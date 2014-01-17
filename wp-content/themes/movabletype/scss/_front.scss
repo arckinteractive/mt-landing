@@ -1,0 +1,74 @@
+// Product
+
+  // Alignment for the grid of VPS options
+  .vps-options > .row { padding: 0 15px; }
+
+  // VPS panel styles
+  .panel-vps { margin-bottom: 0; }
+
+  // Closed VPS panel
+  .js .vps-options.closed { display: none; }
+
+  // Open VPS panel
+  .js .panel-vps.open,
+  .no-js .panel-vps {
+    .panel-convert {
+      @media only screen and (min-width: 48em) {
+        padding-bottom: 53px;
+      }
+    }
+    .panel-convert > .row {
+      opacity: .7;
+      .button-vps { background: #000; }
+    }
+  }
+
+  // Q/A Answer styles
+  .js .answer { display: none; }
+  .js .answer.open { display: block; }
+
+
+// Icons
+
+  .icon-1,
+  .icon-2,
+  .icon-3 {
+    display: block;
+    width: 111px;
+    height: 111px;
+    margin: 15px auto 20px !important;
+  }
+
+  .icon-1 { @include svg-image('icons/icon-cart'); }
+  .icon-2 { @include svg-image('icons/icon-cloud'); }
+  .icon-3 { @include svg-image('icons/icon-vps'); }
+
+  .free-trial {
+    text-indent: -999em;
+    display: block;
+    width: 63px;
+    height: 45px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    @include svg-image('icons/icon-trial');
+    &:hover { opacity: .7; }
+  }
+
+
+// Home Panels
+  
+  @media only screen and (min-width: 48em) {
+    .panel-intro,
+    .panel-cloud,
+    .panel-vps {
+      min-height: 502px;
+      position: relative;
+    }
+
+    .panel-cloud ul,
+    .panel-vps ul {
+      min-height: 70px;
+    }
+
+    .panel-cloud { margin-bottom: 5px; }
+  }

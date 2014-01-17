@@ -1,0 +1,43 @@
+a,a:link,a:visited,
+#header,
+#mp-storepicker,
+.nav ul a:hover{color:#dd5500;}
+a:hover{color:#bb4400;}
+.reply a,
+input[type="submit"],a.button,a:visited.button,a:link.button,
+.mp_cart_actions_widget a,.mp_cart_actions_widget a:link,.mp_cart_actions_widget a:visited,
+.mp_button_addcart,.mp_button_buynow,.mp_cart_col_updatecart input[type=submit],
+#mp_shipping_submit,#mp_payment_confirm,
+a.mp_link_addcart,a.mp_link_buynow,
+form.mp_buy_form .mp_adding_to_cart,
+a.mp_cart_direct_checkout_link{background:none repeat scroll 0 0 #DD5500;border:1px solid #DD5500;color:#ffffff;}
+.reply a:hover,.reply a,
+a.mp_cart_direct_checkout_link,
+#site-logo a,#site-logo a:link,#site-logo a:visited,#site-logo a:hover{color:#ffffff !important;}
+#site-logo{color:#ffffff;text-shadow:-2px -2px 0px #bb4400;}
+a.mp_cart_direct_checkout_link:hover{border-color:#bb4400;}
+.reply a:hover,#header-wrapper a:hover,
+input[type="submit"]:hover,a:hover.button,
+.mp_cart_actions_widget a:hover,
+.mp_button_addcart:hover,.mp_button_buynow:hover,.mp_cart_col_updatecart input[type=submit]:hover,
+#mp_shipping_submit:hover,#mp_payment_confirm:hover,
+a.mp_link_addcart:hover,a.mp_link_buynow:hover,
+a.mp_cart_direct_checkout_link:hover{background:none repeat scroll 0 0 #BB4400;border:1px solid #BB4400;color:#ffffff;}
+#header-wrapper{border-bottom:1px solid #dd5500;}
+#branding-wrapper,
+.nav .current a, .nav li:hover > a, .nav li.current_page_item a, .nav li:hover li a{background:#dd5500;color:#ffffff;}
+.nav ul li:hover a{background:#BB4400;color:#ffffff;}
+#navigation-wrapper,
+#shopping-cart,
+#header-wrapper,
+#footer-wrapper{background:#111111;}
+.nav ul a:hover,
+.nav ul,
+#panel{background:#333333;}
+#footer a:hover,
+.footer-widget,
+#footer-widgets h3,#panel-inner{color:#999999;}
+#footer caption{color:#666666;}
+
+
+/* 120460-1388769460-au */

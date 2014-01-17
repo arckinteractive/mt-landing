@@ -1,0 +1,5 @@
+// SVG / PNG Mixin
+@mixin svg-image($img-name) {
+  .svg & { background: url("../images/#{$img-name}.svg") no-repeat; }
+  .no-svg & { background: url("../images/#{$img-name}.png") no-repeat; }
+}

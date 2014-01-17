@@ -1,0 +1,49 @@
+// Page Header
+  
+  // Header bar styles
+  .page-header {
+    background: #1a1a1a;
+    padding: 1em 0;
+    text-transform: uppercase;
+    a {
+      color: #fff;
+      font-size: .7em;
+    }
+  }
+
+  // Logo (header & footer)
+  .logo {
+    display: block;
+    text-indent: -999em;
+    width: 140px;
+    height: 25px;
+    @include svg-image('branding/logo-thin');
+    @media only screen and (min-width: 48em) {
+      width: 323px;
+      height: 16px;
+      @include svg-image('branding/logo');
+    }
+  }
+
+
+// Page Footer
+
+  .page-footer {
+    padding: 2em 0;
+    p {
+      font-weight: .7em;
+      color: #aaa;
+      a { color: #000; }
+    }
+
+    // Logo (footer)
+    .logo {
+      @include svg-image('branding/logo-footer-thin');
+      float: right;
+      margin-bottom: 15px;
+      @media only screen and (min-width: 48em) {
+        float: inherit;
+        @include svg-image('branding/logo-footer');
+      }
+    }
+  }
